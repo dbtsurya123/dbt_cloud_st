@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_dbt
+    database: QWT_ANALYTICS  
+    schema: raw  
+    tables:
+      - name: customers
+      - name: products
+      - name: employee
+      - name: orders
+      - name: order_details
+      - name: office
